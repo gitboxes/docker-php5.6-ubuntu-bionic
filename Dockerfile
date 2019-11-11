@@ -44,7 +44,7 @@ RUN php -version
 #COPY ./conf/php.ini-development /usr/local/etc/php/5.6/php.ini
 
 RUN apt-get install -y vim
-#RUN apt-get install -y monit
+RUN apt-get install -y monit
 
 EXPOSE  9000 9010 9020 9030
 
